@@ -9,7 +9,7 @@ const Footer = () => {
                 <Col sm={4} md={4} lg={2}>
                     <Container className="d-flex justify-content-evenly px-auto">
                         <GitHubButton href="https://github.com/iftakherhossen" aria-label="Follow @iftakherhossen on GitHub">Follow Me</GitHubButton>
-                        <div></div>
+                        <div className="px-2">●</div>
                         <GitHubButton href="https://github.com/iftakherhossen/tic-tac-toe" data-icon="octicon-star" aria-label="Star iftakherhossen/tic-tac-toe on GitHub">Star</GitHubButton>
                     </Container>
                 </Col>
