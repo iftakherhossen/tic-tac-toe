@@ -8,7 +8,8 @@ const Footer = () => {
             <Row className="d-flex flex-column justify-content-center align-items-center">
                 <Col sm={4} md={4} lg={2}>
                     <Container className="d-flex justify-content-evenly px-auto">
-                        <GitHubButton href="https://github.com/iftakherhossen" aria-label="Follow @iftakherhossen on GitHub">Follow Me</GitHubButton> &nbsp; &nbsp;
+                        <GitHubButton href="https://github.com/iftakherhossen" aria-label="Follow @iftakherhossen on GitHub">Follow Me</GitHubButton>
+                        <div></div>
                         <GitHubButton href="https://github.com/iftakherhossen/tic-tac-toe" data-icon="octicon-star" aria-label="Star iftakherhossen/tic-tac-toe on GitHub">Star</GitHubButton>
                     </Container>
                 </Col>
