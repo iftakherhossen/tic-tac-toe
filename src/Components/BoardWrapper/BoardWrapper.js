@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from "react";
-import { OverlayTrigger, Tooltip } from "react-bootstrap";
+import { Tooltip } from "react-bootstrap";
 
 
 // The default state of the board is set in a constant...
