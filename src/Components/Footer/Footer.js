@@ -6,8 +6,9 @@ const Footer = () => {
     return (
         <footer className="pt-5">
             <Row className="d-flex flex-column justify-content-center align-items-center">
-                <Col sm={6} md={4} lg={3} className="d-flex justify-content-between mx-auto">
-                    <GitHubButton href="https://github.com/iftakherhossen" aria-label="Follow @iftakherhossen on GitHub">Follow @iftakherhossen</GitHubButton>
+                <Col sm={4} md={4} lg={2} className="d-flex justify-content-evenly mx-auto">
+                    <GitHubButton href="https://github.com/iftakherhossen" aria-label="Follow @iftakherhossen on GitHub">Follow Me</GitHubButton>
+                    <span className="mx-sm-0 mx-md-4"> </span>
                     <GitHubButton href="https://github.com/iftakherhossen/tic-tac-toe" data-icon="octicon-star" aria-label="Star iftakherhossen/tic-tac-toe on GitHub">Star</GitHubButton>
                 </Col>
                 <Col sm={12} md={9} lg={6} className="text-center mt-2">

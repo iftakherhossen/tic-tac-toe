@@ -1,3 +1,4 @@
+/* Global CSS Start */
 .wrapper {
     display: flex !important;
     flex-direction: column !important;
@@ -16,3 +17,66 @@
 .coloredBorder {
     border: 2px solid #61dafb !important;
 }
+
+/* Global CSS End */
+
+/* Board Wrapper CSS Start */
+.Game {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Squares {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.Status {
+    margin-bottom: 1rem;
+    text-align: center;
+    font: bold 1.4em "Century Gothic", Futura, sans-serif;
+    color: #61dafb;
+}
+
+.Restart {
+    margin-top: 1rem;
+    border: 0;
+    padding: 1px 15px;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.Square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font: bold 35px "Century Gothic", Futura, sans-serif;
+    line-height: 34px;
+    height: 70px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 75px;
+}
+
+.Square:focus {
+    outline: none;
+    background: #ddd;
+}
+
+.Game {
+    display: flex;
+    flex-direction: row;
+}
+
+.GameInfo {
+    margin-left: 20px;
+    min-width: 190px;
+}
+
+/* Board Wrapper CSS End */
