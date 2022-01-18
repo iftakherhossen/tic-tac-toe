@@ -51,11 +51,11 @@ const Board = ({
                 </button>
             ))}
         </div>
-        <OverlayTrigger overlay={<Tooltip>Restart the Game!</Tooltip>}>
+        <Tooltip title="Restart the Game!" id="toolTip" placement="bottom">
             <button className="Restart" onClick={onRestartClick}>
                 <i class="bi bi-arrow-counterclockwise"></i>
             </button>
-        </OverlayTrigger>
+        </Tooltip>
     </div >
 );
 
