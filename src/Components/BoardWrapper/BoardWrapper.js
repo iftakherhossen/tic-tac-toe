@@ -1,4 +1,5 @@
 import { useCallback, useMemo, useState } from "react";
+import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 
 // The default state of the board is set in a constant...
@@ -50,10 +51,12 @@ const Board = ({
                 </button>
             ))}
         </div>
-        <button className="Restart" onClick={onRestartClick}>
-            <i class="bi bi-arrow-counterclockwise"></i>
-        </button>
-    </div>
+        <OverlayTrigger overlay={<Tooltip>Restart the Game!</Tooltip>}>
+            <button className="Restart" onClick={onRestartClick}>
+                <i class="bi bi-arrow-counterclockwise"></i>
+            </button>
+        </OverlayTrigger>
+    </div >
 );
 
 const BoardWrapper = props => {
