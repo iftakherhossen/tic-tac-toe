@@ -4,6 +4,7 @@
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
+    user-select: none !important;
 }
 
 .coloredTxt {
